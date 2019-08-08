@@ -6,14 +6,11 @@
 
 #include <pybind11/pybind11.h>
 #include <pybind11/operators.h>
-#include <ACCast.h>
 
 
 #include "DGWImageCache.hpp"
 #include "DGUtility.hpp"
 
-
-namespace py = pybind11;
 
 class CastTest {
 public:
